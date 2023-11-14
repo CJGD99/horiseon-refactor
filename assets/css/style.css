@@ -4,9 +4,13 @@
     margin: 0;
 }
 
+/* This code sets the style for the body section */
+
 body {
     background-color: #d9dcd6;
 }
+
+/* This section of code sets the style for the header element. */
 
 header {
     padding: 20px;
@@ -23,6 +27,8 @@ header h1 {
 header h1 .seo {
     color: #d9dcd6;
 }
+
+/* This section sets the style for the nav bar within the header */
 
 header nav {
     padding-top: 15px;
@@ -46,6 +52,11 @@ a {
     text-decoration: none;
 }
 
+/* The header element ends here */
+
+
+/* This is the code for the hero image */
+
 .hero {
     height: 800px;
     width: 100%;
@@ -55,11 +66,22 @@ a {
     background-position: center;
 }
 
+/* The hero image section ends here */
+
+
+/* This is the section of code that sets the style for the content within main */
+
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
+
+p {
+    font-size: 16px;
+}
+
+/* The code below sets the styles for the individual div blocks of content in main */
 
 .search-engine-optimization {
     margin-bottom: 20px;
@@ -88,10 +110,6 @@ a {
     color: #ffffff;
 }
 
-p {
-    font-size: 16px;
-}
-
 .float-left {
     float: left;
     margin-right: 25px;
@@ -101,6 +119,8 @@ p {
     float: right;
     margin-left: 25px;
 }
+
+/* The code below is styling for the images used in the content section */
 
 .search-engine-optimization img {
     max-height: 200px;
@@ -113,6 +133,8 @@ p {
 .social-media-marketing img {
     max-height: 200px;
 }
+
+/* The code below is styling for the h2 elements in the content section */
 
 .search-engine-optimization h2 {
     margin-bottom: 20px;
@@ -129,6 +151,11 @@ p {
     font-size: 36px;
 }
 
+/* The content section ends here */
+
+
+/* This section of code sets the style for the aside */
+
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -139,6 +166,8 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
+
+/* The code below sets the individual styles for each div block in the aside */
 
 .benefit-lead {
     margin-bottom: 32px;
@@ -155,6 +184,8 @@ p {
     color: #ffffff;
 }
 
+/* The code below is styling for the h3 elements in the aside */
+
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
@@ -169,6 +200,8 @@ p {
     margin-bottom: 10px;
     text-align: center;
 }
+
+/* This code sets the styling for the images used in the aside */
 
 .benefit-lead img {
     display: block;
@@ -187,6 +220,11 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
+
+/* The aside section ends here */
+
+
+/* This code is for the footer element */
 
 .footer {
     padding: 30px;
